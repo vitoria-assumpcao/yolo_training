@@ -1,0 +1,11 @@
+# VS-SEG Dataset Configuration for YOLOv8x-seg
+# Vestibular Schwannoma segmentation from MRI
+
+path: /home/vitoria_assumpcao/automated-vs-organization/training_set_vs_tumor
+train: train/images
+val: valid/images
+test: test/images
+
+# Class names
+names:
+  0: tumor

@@ -1,0 +1,21 @@
+[project]
+name = "seu-projeto"
+version = "0.1.0"
+description = "Projeto usando Ultralytics"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+
+authors = [
+    { name = "Vitória Assumpção", email = "vitoria-assumpcao@outlook.com" }
+]
+
+dependencies = [
+    "ultralytics>=8.4.33,<9.0.0"
+]
+
+[tool.poetry]
+packages = [{ include = "seu_projeto" }]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
